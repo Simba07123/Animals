@@ -1,4 +1,90 @@
+@charset "UTF-8";
+
+html, body, header, nav, main, footer, div, section, article, aside {
+    margin:0;
+    padding:0;
+}
+
+html {
+    font-size: 16px;
+}
 
 body {
-background-color: black;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+    background-color: black;
+    color: #FF0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+    text-align: right;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a:link,
+nav a:visited {
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: red;
+    color: black;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: red;
+    color: black;
+}
+#thisPage {
+    background-color: #9d7010;
+    color: #ebe6dc;
+}
+
+h1,
+h2,
+h3 {
+    color: #FF0000;
+}
+
+h1 {
+    border-bottom: 4px double #FF0000;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+}
+
+a:link,
+a:visited {
+    color: blue;
+}
+
+a:hover,
+a:active {
+    color: purple;
+    background-color: #FC6;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.floatRight {
+    float: right;
+    width: 300px;
+    max-width:50%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    clear: both;
+    margin-top: 2rem;
+    border-top:1px solid #FF0000;
+    font-style: italic;
 }
